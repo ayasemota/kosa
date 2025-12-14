@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+* {
+  user-select: none;
+}
+
+@keyframes preloaderPulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.8;
+  }
+}
+
+.animate-preloaderPulse {
+  animation: preloaderPulse 1.5s ease-in-out infinite;
+}
