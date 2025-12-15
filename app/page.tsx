@@ -66,7 +66,7 @@ export default function Home() {
   }
 
   return (
-    <main className="min-h-screen transition-opacity duration-700 opacity-100">
+    <main className="min-h-screen p-4 transition-opacity duration-700 opacity-100">
       <Reveal>
         <Hero />
       </Reveal>

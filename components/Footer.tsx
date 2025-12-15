@@ -22,12 +22,12 @@ export default function Footer() {
         </p>
 
         <p className="text-gray-500 text-sm">
-          &copy; {new Date().getFullYear()} Kosa. Made with 💖{" "}
+          &copy; {new Date().getFullYear()} Kosa. Made with 💖 by {" "}
           <Link
             href="https://github.com/ayasemota/" target="_blank"
             className="text-pink-500 animate-pulse hover:scale-125"
           >
-            by Favorite Brother 🤪
+            Favorite Brother 🤪
           </Link>
         </p>
       </div>

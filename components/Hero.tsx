@@ -19,7 +19,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-4">
+    <section className="relative min-h-dvh flex items-center justify-center overflow-hidden px-4">
       <div
         className="absolute inset-0 opacity-20"
         style={{

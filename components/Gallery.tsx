@@ -71,7 +71,7 @@ export default function Gallery() {
         My Vibe
       </h2>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
         {vibeImages.map((item) => {
           const IconComponent =
             item.id % 3 === 0 ? Heart : item.id % 3 === 1 ? Sparkles : Star;
@@ -128,7 +128,6 @@ export default function Gallery() {
                 }`}
               />
 
-              {/* Overlay gradient on hover (partial reveal) */}
               {isHovered && !isCardFlipped && (
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
               )}
