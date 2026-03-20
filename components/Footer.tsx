@@ -24,7 +24,7 @@ export default function Footer() {
         <p className="text-gray-500 text-sm">
           &copy; {new Date().getFullYear()} Kosa. Made with 💖 by {" "}
           <Link
-            href="https://https://ayz-portfolio.vercel.app/" target="_blank"
+            href="https://ayz-portfolio.vercel.app/" target="_blank"
             className="text-pink-500 animate-pulse hover:scale-125"
           >
             Favorite Brother 🤪
